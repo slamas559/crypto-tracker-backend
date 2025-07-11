@@ -7,4 +7,6 @@ const watchlistSchema = new mongoose.Schema({
 
 watchlistSchema.index({ user: 1, coinId: 1 }, { unique: true });
 
-export default mongoose.model("Watchlist", watchlistSchema);
+const Watchlist = mongoose.model("Watchlist", watchlistSchema);
+
+export default Watchlist;
