@@ -1,5 +1,5 @@
 import express from "express";
-import Watchlist from "../models/WatchLists.js";
+import Watchlist from "../models/Watchlists.js";
 import auth from "../middleware/authMiddleware.js";
 
 const router = express.Router();
