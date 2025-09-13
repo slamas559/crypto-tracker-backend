@@ -18,7 +18,7 @@ const app = express();
 app.use(cors());
 app.use(express.json(
   {
-    origin: "http://localhost:5173/", // Replace with actual Vercel domain
+    origin: "*", // Replace with actual Vercel domain
     credentials: true
   }
 ));
